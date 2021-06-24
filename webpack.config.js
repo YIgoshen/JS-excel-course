@@ -53,7 +53,7 @@ module.exports = {
       template: 'index.html',
       minify: {
         removeComments: isProd,
-        collapseWhitespace: isProd
+        collapseWhitespace: true
       }
     }), 
     new CopyPlugin({
