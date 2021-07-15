@@ -6,7 +6,9 @@
     "node": true
   },
   "rules": {
-
+    "eol-last": "off",
+    "require-jsdoc": "off",
+    "operator-linebreak": :"off"
   },
   "extends": ["eslint:recommended", "google"] 
 }
